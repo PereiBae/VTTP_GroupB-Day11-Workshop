@@ -34,7 +34,7 @@ public class Day11Application {
 		// Set the server port
 		app.setDefaultProperties(Collections.singletonMap("server.port", port));
 
-		System.out.printf("Application started on port %d\n",port);
+		System.out.printf("Application started on port %s\n",port);
 		app.run(args);
 
 	}
