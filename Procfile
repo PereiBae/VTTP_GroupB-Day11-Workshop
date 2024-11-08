@@ -1,0 +1,1 @@
+web: java -jar target/Day11Application.jar --server.port=$PORT
